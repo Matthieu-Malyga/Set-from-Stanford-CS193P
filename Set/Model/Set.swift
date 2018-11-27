@@ -72,18 +72,18 @@ struct Set {
             // 1 * 3 * 3 = 9 etc...
 
             // For TESTING purposes, always return true
-			return true
+			//return true
 
-//            if shapeStyles.allSatisfy({ $0 == shapeStyles[0] }) || shapeStyles.reduce(1, { $0 * $1.rawValue }) == 6 {
-//                if shapeColorStyles.allSatisfy({ $0 == shapeColorStyles[0] }) || shapeColorStyles.reduce(1, { $0 * $1.rawValue }) == 6 {
-//                    if shapeFillingStyles.allSatisfy({ $0 == shapeFillingStyles[0] }) || shapeFillingStyles.reduce(1, { $0 * $1.rawValue }) == 6 {
-//                        if numberOfShapes.allSatisfy({ $0 == numberOfShapes[0] }) || numberOfShapes.reduce(1, { $0 * $1.rawValue }) == 6 {
-//                            return true
-//                        }
-//                    }
-//                }
-//            }
-//            return false
+            if shapeStyles.allSatisfy({ $0 == shapeStyles[0] }) || shapeStyles.reduce(1, { $0 * $1.rawValue }) == 6 {
+                if shapeColorStyles.allSatisfy({ $0 == shapeColorStyles[0] }) || shapeColorStyles.reduce(1, { $0 * $1.rawValue }) == 6 {
+                    if shapeFillingStyles.allSatisfy({ $0 == shapeFillingStyles[0] }) || shapeFillingStyles.reduce(1, { $0 * $1.rawValue }) == 6 {
+                        if numberOfShapes.allSatisfy({ $0 == numberOfShapes[0] }) || numberOfShapes.reduce(1, { $0 * $1.rawValue }) == 6 {
+                            return true
+                        }
+                    }
+                }
+            }
+            return false
         }
         return false
     }
