@@ -283,10 +283,11 @@ class ViewController: UIViewController {
                         )
                     })
                 }
+            } else {
+                cardViews[index].isSelected = false
             }
         }
     }
-
 }
 
 //MARK: - Helper Functions
