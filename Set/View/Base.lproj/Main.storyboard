@@ -53,7 +53,7 @@
                                     <constraint firstAttribute="height" constant="60" id="RDp-jn-ZnV"/>
                                 </constraints>
                             </stackView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jKv-3v-7fd" customClass="CardsBoardView" customModule="Set" customModuleProvider="target">
+                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="jKv-3v-7fd" customClass="CardsBoardView" customModule="Set" customModuleProvider="target">
                                 <rect key="frame" x="16" y="36" width="343" height="539"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>

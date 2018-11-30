@@ -21,7 +21,6 @@ class CardsBoardView: UIView {
     var numberOfCardsToBeDisplayed = 0 {
         didSet {
             grid.cellCount = numberOfCardsToBeDisplayed
-            setNeedsLayout()
         }
     }
 
